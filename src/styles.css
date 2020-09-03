@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.header{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  margin-bottom: 2px;
+}
+
+.data{
+  width: 30%;
+  height: 600px;
+  background-color: black;
+  margin-right: 2px;
+}
+
+.info{
+  width: 70%;
+  height: 600px;
+  background-color: black;
+}
+
+.altura {
+  height: 600px;
+}
+
+.footer {
+  height: 300px;
+}
+
+.cv {
+  /*height: 3508px;*/
+  height: auto;
+  /*width: 2480px;*/
+  width: 800px;
+}
+.cv-main {
+  height: 200px;
+  color: white;
+}
+
+.cv-main h1 {
+  font-size: 4rem;
+  letter-spacing: 1.5rem;
+}
+
+.cv-main h2 {
+  font-size: 1rem;
+  letter-spacing: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  line-height: 1.5rem;
+}
